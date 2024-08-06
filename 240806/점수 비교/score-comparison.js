@@ -9,7 +9,7 @@ let aEng = Number(a[1]);
 let bMath = Number(b[0]);
 let bEng = Number(b[1]);
 
-if (aMath >= bMath && aEng >= bEng) {
+if (aMath > bMath && aEng > bEng) {
     console.log(1);
 }
 
