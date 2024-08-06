@@ -11,6 +11,9 @@ else {
     if(mon === 2) {
         console.log(28);
     }
+    else if (mon === 8) {
+        console.log(31);
+    }
 
     else {
         console.log(30);
