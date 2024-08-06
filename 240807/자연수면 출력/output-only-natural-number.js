@@ -9,6 +9,9 @@ if (a > 0) {
     for(let i = 0; i < b; i++) {
         result += input[0];
     }
-}
+    console.log(result);
 
-console.log(result);
+}
+else {
+    console.log(0);
+}
