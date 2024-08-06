@@ -10,5 +10,5 @@ if(a > b) {
 }
 
 else {
-    console.log(b%a);
+    console.log(parseInt(b/a));
 }
