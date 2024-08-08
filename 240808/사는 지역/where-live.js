@@ -16,7 +16,7 @@ for(let i = 0; i < n; i++) {
     persons[i] = new Person(name, address, region);
 }
 
-persons.sort((prev,cur) => prev.name - cur.name);
+persons.sort((prev,cur) => prev.name.localeCompare(cur.name));
 
 console.log(`name ${persons[n-1].name}`);
 console.log(`addr ${persons[n-1].address}`);
