@@ -12,6 +12,10 @@ let cnt = 1;
 
 while (true) {
 
+    if(m1 === m2 && d1 === d2) {
+        break;
+    }
+
     d1++;
     cnt++;
 
@@ -20,9 +24,7 @@ while (true) {
         m1++;
     }
 
-    if(m1 === m2 && d1 === d2) {
-        break;
-    }
+    
 
 
 }
