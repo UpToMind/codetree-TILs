@@ -8,7 +8,7 @@ class Student {
 
 function cmp(prev, cur) {
     if(prev.h == cur.h) {
-        if(prev.w == prev.h){
+        if(prev.w == cur.w){
             return prev.n - cur.n;
         }
 
