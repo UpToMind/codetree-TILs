@@ -22,7 +22,7 @@ let students = Array(n).fill( new Student() );
 
 for (let i = 0; i < n; i++) {
     let [name, h, w] = input[i].split(" ");
-    students[i] = new Student(name, Number(h), Number(w));
+    students[i] = new Student(name, Number(h), Number(w).toFixed(1));
 }
 
 students.sort(cmpByName);
