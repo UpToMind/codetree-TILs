@@ -6,7 +6,7 @@ let result = [];
 let num = "";
 
 while (true) {
-    if(n <= 1) {
+    if(n < b) {
         result.push(n);
         break;
     }
