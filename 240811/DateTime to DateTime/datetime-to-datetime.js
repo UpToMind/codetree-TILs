@@ -5,7 +5,9 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 let cnt = 0;
 
-if(a == 11 && b <= 11 && c < 11) console.log(-1);
+if(a == 11 && ((b == 11 && c < 11) || (b < 11))) {
+    console.log(-1);
+    }
 else {
     while(true) {
         if(a == 11 && b == 11 && c == 11) break;
@@ -28,6 +30,5 @@ else {
         }
 
     }
+    console.log(cnt);
 }
-
-console.log(cnt);
