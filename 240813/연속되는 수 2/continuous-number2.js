@@ -16,4 +16,6 @@ for(let i = 1; i < n; i++) {
 
 }
 
+maxCnt = Math.max(maxCnt, currentCnt);
+
 console.log(maxCnt);
