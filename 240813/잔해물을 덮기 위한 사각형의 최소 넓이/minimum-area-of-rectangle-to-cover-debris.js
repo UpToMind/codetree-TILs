@@ -13,8 +13,8 @@ for(let i = 0; i < 2; i++) {
     if( i === 0 ) id = 1;
     else id = -1;
 
-    for(let j = a; j <= c; j++) {
-        for(let k = b; k <= d; k++) {
+    for(let j = a; j < c; j++) {
+        for(let k = b; k < d; k++) {
             arr[j][k] = id;
         }
     }
