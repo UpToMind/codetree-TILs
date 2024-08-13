@@ -13,8 +13,8 @@ for(let i = 0; i < 2; i++) {
     if( i === 0 ) id = 1;
     else id = -1;
 
-    for(let j = a; j < c; j++) {
-        for(let k = b; k < d; k++) {
+    for(let j = a; j <= c; j++) {
+        for(let k = b; k <= d; k++) {
             arr[j][k] = id;
         }
     }
@@ -34,7 +34,7 @@ for(let i = 0; i < 2001; i++) {
 
 let result = 0;
 if (mini <= maxi && minj <= maxj) {
-    result = (maxi - mini + 1) * (maxj - minj + 1);
+    result = (maxi - mini ) * (maxj - minj );
 }
 
 console.log(result);
