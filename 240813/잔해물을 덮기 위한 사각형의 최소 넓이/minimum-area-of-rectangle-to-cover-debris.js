@@ -34,7 +34,7 @@ for(let i = 0; i < 2001; i++) {
 
 let result = 0;
 if (mini <= maxi && minj <= maxj) {
-    result = (maxi - mini ) * (maxj - minj );
+    result = (maxi - mini + 1) * (maxj - minj + 1);
 }
 
 console.log(result);
