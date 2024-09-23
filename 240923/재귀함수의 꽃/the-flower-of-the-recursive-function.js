@@ -7,9 +7,12 @@ function f(a, t, l) {
     process.stdout.write(a[t] + " ");
 }
 
+const fs = require("fs");
+let input = fs.readFileSync(0).toString().trim();
+let n = Number(input);
 let a = Array(5).fill(0);
-for (let i = 1; i <= 5; i++) {
+for (let i = 1; i <= n; i++) {
     a[i-1] = 6 - i;
 }
-let n = 5;
+
 f(a, 0, n);
