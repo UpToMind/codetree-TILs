@@ -12,7 +12,7 @@ let input = fs.readFileSync(0).toString().trim();
 let n = Number(input);
 let a = Array(5).fill(0);
 for (let i = 1; i <= n; i++) {
-    a[i-1] = 6 - i;
+    a[i-1] = n+1 - i;
 }
 
 f(a, 0, n);
