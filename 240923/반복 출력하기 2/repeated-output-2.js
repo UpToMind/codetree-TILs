@@ -5,4 +5,7 @@ function helloWorld(n) {
     process.stdout.write("HelloWorld\n");
 }
 
-helloWorld(4);
+const fs = require("fs");
+let input = fs.readFileSync(0).toString().trim();
+
+helloWorld(Number(input));
