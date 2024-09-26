@@ -14,5 +14,9 @@ arr.sort();
 
 for(let i = 0; i< n; i++) {
     if(arr[i].startsWith(t)) cnt++;
-    if(cnt == k) console.log(arr[i]);
+    if(cnt == k) {
+        console.log(arr[i]);
+        break;
+        
+        }
 }
