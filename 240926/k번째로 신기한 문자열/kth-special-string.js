@@ -13,9 +13,6 @@ for(let i = 0; i < n; i++) {
 arr.sort();
 
 for(let i = 0; i< n; i++) {
-    if(arr[i].includes(t)) cnt++;
-    if(cnt === k) {
-        console.log(arr[i]);
-        
-    }
+    if(arr[i].startsWith(t)) cnt++;
+    if(cnt == k) console.log(arr[i]);
 }
