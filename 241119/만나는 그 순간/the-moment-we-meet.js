@@ -28,7 +28,7 @@ for (let i = 0; i < m; i++) {
 }
 
 let answer = -1;
-for (let i = 1; i <= 2000; i++) {
+for (let i = 1; i < timeA; i++) {
     if(posA[i] === posB[i]) {
         answer = i;
         break;
