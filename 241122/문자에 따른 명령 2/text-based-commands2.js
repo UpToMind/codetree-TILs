@@ -7,7 +7,7 @@ let dirNum = 3;
 
 for(let i=0; i < input.length; i++) {
     if(input[i] === "L"){
-        dirNum = (dirNum - 1) % 4;
+        dirNum = (dirNum +3) % 4;
     }
 
     else if (input[i] === "R") {
