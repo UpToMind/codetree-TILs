@@ -1,4 +1,8 @@
 function findMin(a,b,c) {
+    a = Number(a);
+    b = Number(b);
+    c = Number(c);
+
     if ( a>= b) {
         if (b <= c) return b;
         else return c;
